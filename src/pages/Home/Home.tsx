@@ -49,7 +49,7 @@ export const Home = () => {
       <div>
         <div>
           <Button txt='AC' value='AC' onClick={deleteEquation} />
-          <Button txt='DEL' value='DEL' onClick={removeElement} />
+          <Button txt='C' value='C' onClick={removeElement} />
           <Button txt='%' value='%' onClick={updateEquation} />
           <Button txt='/' value='/' onClick={updateEquation} />
         </div>
